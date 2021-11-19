@@ -197,7 +197,6 @@ body {
 
 .submenu-item:focus-within {
   outline: 2px solid #2d3440;
-  border-radius: 26px;
   background-color: #ffcbd8;
 }
 
@@ -207,6 +206,10 @@ body {
 
 .submenu-link-current {
   background-color: #ff4a78;
+}
+
+.submenu-link-current a {
+  color:#f2f2f2
 }
 
 /*---user-nav---*/
@@ -541,8 +544,8 @@ body {
 }
 /*---состояние белых и красных кнопок---*/
 .button-red:hover {
-  background-color: #ff2f64;
-  outline-color: rgba(255, 47, 100, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
+  outline-color: #ff2f64;
   color: #2d3440;
   cursor: pointer;
 }
@@ -1242,6 +1245,7 @@ body {
   min-height: 220px;
   padding-left: 32px;
   padding-top: 32px;
+  background-color: #f2f2f2;
   background-image: url("../images/blog.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1330,6 +1334,7 @@ body {
   width: 1170px;
   margin-top: -4px;
   padding: 64px;
+  background-color: #f2f2f2;
   background-image: url("../images/delivery.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1513,6 +1518,7 @@ body {
 .contacts {
   display: block;
   width: 1170px;
+  background-color: #f2f2f2;
   background-image: url("../images/contacts-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
